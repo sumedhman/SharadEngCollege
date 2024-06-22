@@ -1,0 +1,16 @@
+small project in Java that demonstrates the concept of inheritance. 
+We will create a simple system for managing different types of employees in a 
+company. The project will involve the following classes:
+
+Employee - The base class
+Manager - A subclass of Employee
+Developer - Another subclass of Employee
+Main - To test the functionality
+-----
+Explanation
+Inheritance: Manager and Developer classes inherit from the Employee class. 
+This means they automatically get the fields and methods defined in Employee.
+Polymorphism: Each subclass (Manager and Developer) can override methods from the Employee class 
+to provide specific functionality.
+Encapsulation: Each class encapsulates its fields and provides public getter and setter methods
+to access and modify them.

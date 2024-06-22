@@ -1,0 +1,34 @@
+public class Main {
+    public static void main(String[] args) {
+        Library library = new Library();
+
+        Book book1 = new Book("1984", "George Orwell", "1234567890");
+        Book book2 = new Book("To Kill a Mockingbird", "Harper Lee", "0987654321");
+
+        Member member1 = new Member("Alice", "M001");
+        Member member2 = new Member("Bob", "M002");
+
+        library.addBook(book1);
+        library.addBook(book2);
+
+        library.addMember(member1);
+        library.addMember(member2);
+
+        System.out.println("Library Books:");
+        library.displayBooks();
+
+        System.out.println("\nLibrary Members:");
+        library.displayMembers();
+
+        System.out.println("\nBorrowing Books:");
+        library.borrowBook("1234567890", "M001");
+        library.borrowBook("1234567890", "M002");
+
+        System.out.println("\nReturning Books:");
+        library.returnBook("1234567890", "M001");
+        library.returnBook("1234567890", "M002");
+
+        System.out.println("\nLibrary Books After Transactions:");
+        library.displayBooks();
+    }
+}

@@ -1,0 +1,20 @@
+mall project demonstrating Object-Oriented Programming (OOP) concepts in Java. This project will cover key OOP principles such as encapsulation, inheritance, polymorphism, and abstraction. The project will simulate a simple library system.
+
+1. Library System Overview
+We will create a library system with the following classes:
+
+Book
+Member
+Library
+Main (to test the functionality)
+
+2.class defination (Book.java)
+3.Member.java
+4.Library.java
+5.Main.java
+
+Explanation
+Encapsulation: The Book and Member classes have private fields and public methods to access and modify these fields.
+Inheritance: While this example does not explicitly show inheritance, you can easily extend these classes for more specific types of books or members.
+Polymorphism: This could be demonstrated by creating a method that takes a List<Book> or List<Member> and processes them, relying on the common interface.
+Abstraction: The Library class abstracts the management of books and members, providing methods to borrow and return books.

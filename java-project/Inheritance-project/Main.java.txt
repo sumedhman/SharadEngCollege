@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        Employee emp = new Employee("John Doe", 101, 50000);
+        Manager mgr = new Manager("Jane Smith", 102, 70000, "Sales");
+        Developer dev = new Developer("Mike Johnson", 103, 60000, "Java");
+
+        System.out.println("Employee Details:");
+        emp.displayDetails();
+
+        System.out.println("\nManager Details:");
+        mgr.displayDetails();
+
+        System.out.println("\nDeveloper Details:");
+        dev.displayDetails();
+    }
+}
