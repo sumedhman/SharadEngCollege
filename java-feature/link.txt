@@ -1,0 +1,1 @@
+(for ref https://www.scaler.com/topics/java/lambda-expression-in-java/)
